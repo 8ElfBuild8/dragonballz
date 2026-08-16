@@ -1,0 +1,80 @@
+<title>Dragon Ball Z</title>
+
+<button class="intro"> Song Tenkaishi </button> <br><br>
+<button autofocus onclick="document.getElementById('intro-song').play()" class="intro">Play</button>
+<audio id="intro-song" src="intro.mp3" loop></audio>
+
+<button onclick="document.getElementById('intro-song').pause()">
+  Pause 
+</button>
+
+<button onclick="let s = document.getElementById('intro-song'); s.currentTime = 0; s.play();">
+  Restart
+</button>
+
+
+
+<div class="seccion1">
+
+   <div> 
+   <img src="team.jpg" class="team">
+   <br>
+   <button onclick="document.getElementById('aura').play()" class="aura"> Feel the aura / ki </button>
+   </div>
+   
+   <div class="control">
+   <canvas> </canvas>
+   
+   <div class="control2a">
+        <button class="control2">Start</button>
+        <button class="control2">Return ←</button>
+        <button class="control2">Run →</button>
+        <button class="control2">Jump ↑ (Space)</button>
+   </div>
+   
+   </div>
+
+</div>
+
+
+
+
+
+<div>
+<img src="omega.jpg">
+</div>
+
+<div>
+<button onclick="document.getElementById('shenron1').play()" class="aura"> Call Shenron </button>
+
+<button onclick="document.getElementById('shenron2').play()" class="aura2"> Make a Wish </button>
+</div>
+
+<div>
+<img src="fusion.jpg">
+
+
+</div>
+
+<div>
+<img src="picolo.jpg">
+
+
+</div>
+
+
+
+
+
+<div>
+
+<script src="index.js">   </script>
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="canvas.css"> 
+ 
+ 
+ <audio id="intro-song" src="intro.mp3" loop></audio>
+ <audio id="aura" src="aura.mp3"></audio>
+  <audio id="shenron1" src="shenron1.mp3"></audio>
+  <audio id="shenron2" src="shenron2.mp3"></audio>
+</div>

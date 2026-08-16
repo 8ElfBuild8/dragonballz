@@ -1,0 +1,30 @@
+canvas {
+  width: 600px;
+  height: 600px;
+  background-color: white;  
+  border: 3px solid black;
+  margin: 25px;
+  justify-content: center;
+  margin-left:  300px;
+  margin-right: 300px;
+  display: block;
+  padding: 0px;
+}
+
+.control {
+	border: 5px solid blue;
+	background-color: forestgreen; 
+	margin: 50px;
+	padding: 50px;
+}
+
+.control2 {
+	 padding: 24px 48px; /* First number is top/bottom, second is left/right */
+     font-size: 36px;    /* Makes the text larger */
+	 justify-content: center;
+}
+
+.control2a {
+	 margin-left:  100px;
+     margin-right: 100px;
+}
