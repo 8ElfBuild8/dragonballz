@@ -1,0 +1,39 @@
+.escena {
+  width: 1200px;
+  height: 1200px;
+  background-color: white;  
+  border: 3px solid black;
+  margin: 25px;
+  justify-content: center;
+  margin-left:  100px;
+  margin-right: 100px;
+  display: block;
+  padding: 0px;
+  overflow: auto; 
+  background-image: url('terreno2.png');
+   background-size: cover;  
+    background-repeat: repeat-x;
+	
+	 overflow-x: auto;
+}
+
+.control {
+	border: 5px solid blue;
+	background-color: forestgreen; 
+	margin: 0px;
+	margin-right: 100px;
+	padding: 50px;
+	height: 1350px;
+	
+}
+
+.control2 {
+	 padding: 24px 48px; /* First number is top/bottom, second is left/right */
+     font-size: 36px;    /* Makes the text larger */
+	 justify-content: center;
+}
+
+.control2a {
+	 margin-left:  180px;
+     margin-right: 100px;
+}

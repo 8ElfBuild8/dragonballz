@@ -1,6 +1,7 @@
 html {
 	background-color: yellow;
 	margin: 20px;
+	margin-right:110px;
 	zoom: 75%;
 	
 }
@@ -10,7 +11,8 @@ button {
     cursor: pointer;
     background-color: orange;
 	color: white;
-	
+	padding: 24px 48px;
+	font-size: 36px;
 		}
 
 button:hover {
@@ -22,7 +24,7 @@ button:hover {
 }
 
 .team {
-	width: 400px;
+	width: 800px;
 	height: auto;
 	margin: 20px;
 	border: solid 3px  black;
@@ -34,14 +36,14 @@ button:hover {
 
 .seccion1 {
 	display: flex;
-	gap: 40px;
+	gap: 150px;
 	margin: 0px ;
 	
 }
 
 
 img {
-	width: 30%;
+	width: 800px;
 	height: auto;
 	margin: 20px;
 	border: solid 3px  black;
