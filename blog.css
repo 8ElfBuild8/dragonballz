@@ -3,7 +3,7 @@
 .blog {
 	display: flex;
 	gap: 150px;
-	
+	width: 2500px;
 }
 
 .omega {
