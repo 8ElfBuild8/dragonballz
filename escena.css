@@ -13,8 +13,8 @@
   background-image: url('terreno2.png');
    background-size: cover;  
     background-repeat: repeat-x;
-	
-	 overflow-x: auto;
+		 overflow-x: auto;
+		 position:relative;
 }
 
 .control {
@@ -36,4 +36,23 @@
 .control2a {
 	 margin-left:  180px;
      margin-right: 100px;
+}
+
+.android17 {
+	 object-fit: contain;
+	 width: 400px;
+	height: auto;
+	margin: 20px;
+	border: solid 0px  black;
+	box-shadow: 0px 0px 0px 0px green;
+	position: absolute;
+	 
+	  bottom: -20px; 
+	  left: 0px; 
+	}
+	
+	.android17:hover {
+  
+  /* Runs automatically on page load forever */
+  animation: 0; 
 }
