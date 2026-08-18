@@ -42,7 +42,16 @@ button:hover {
 	display: flex;
 	gap: 150px;
 	margin: 0px ;
+	}
 	
+.gif {
+    display: grid;
+}	
+
+.pdf {
+	
+	margin-left: 280px;
+	margin-bottom: 800px;
 }
 
 
