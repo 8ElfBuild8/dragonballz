@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const GAME_WIDTH = 810;
     
     // Tweak this number to change how fast the character slides!
-    const MOVEMENT_SPEED = 5; 
+    const MOVEMENT_SPEED = 10; 
 
     // Track state: Is a movement button currently being pressed down?
     let isMovingLeft = false;
