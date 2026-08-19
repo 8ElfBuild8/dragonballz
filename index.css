@@ -34,6 +34,7 @@ html {
 /* 📱 Cambio de imagen para pantallas móviles (Menores a 767px) */
 @media (max-width: 767px) {
   #loader {
+	zoom: 75%;  
     background-image: url('logo3.jpg'); /* Tu loader de móvil */
     background-size: cover;             /* Mantiene el comportamiento de pantalla completa */
   }
