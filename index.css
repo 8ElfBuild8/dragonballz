@@ -13,8 +13,8 @@ html {
   position: fixed;
   top: 0;
   left: 0;
-  width: 200vw;
-  height: 200vh;
+  width: 100%;
+  height: auto;
   background-color: transparent; /* Color de fondo de la pantalla de carga */
   display: flex;
   justify-content: center;
@@ -35,7 +35,13 @@ html {
     /* Configuramos la animación de aparición */
   opacity: 0; /* Inicia invisible */
   animation: aparecerSuave 0.6s ease-out forwards; /* Dura 0.6 segundos */
+  
 }
+
+#loader:hover {
+	 transform: none !important;
+}
+	
 
 @keyframes aparecerSuave {
   from {
