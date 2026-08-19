@@ -49,20 +49,6 @@ button:hover {
     display: grid;
 }	
 
-.pdf {
-	
-	margin-left: 280px;
-	margin-bottom: 750px;
-}
-
-label {
-	Position: absolute;
-      	font-size: 70px;
-		left: 180px;
-        bottom: 550px;
-		text-align: center;
-		
-}
 
 
 img {
