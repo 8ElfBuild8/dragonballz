@@ -1,0 +1,119 @@
+html {
+ background-color: yellow;
+box-sizing: border box; 
+ zoom: 75%;
+}
+
+.escena {
+  width: 2100px;
+  height: 800px;
+  background-color: white;  
+  border: 3px solid black;
+  margin: 25px;
+  justify-content: center;
+  margin-left:  90px;
+  margin-right: 90px;
+  display: block;
+  padding: 0px;
+  overflow: auto; 
+  background-image: url('terreno2.png');
+  background-size: cover;  
+  background-repeat: repeat-x;
+  overflow-y: auto;
+  position:relative;
+}
+
+.control {
+	border: 3px solid blue;
+	background-color: forestgreen; 
+	margin: 0px;
+	margin-right: 0px;
+	padding: 50px;
+	height: 1350px;
+	width: 2277px;
+	position: relative;
+}
+
+.control2 {
+	 padding: 24px 48px; /* First number is top/bottom, second is left/right */
+     font-size: 36px;    /* Makes the text larger */
+	 justify-content: center;
+     position: absolute;
+	 bottom: 0px; 
+	left: 360px;
+}
+
+.up  {
+     padding: 12px 24px; /* First number is top/bottom, second is left/right */
+     font-size: 18px;    /* Makes the text larger */
+	 justify-content: center;
+	 display:flex;
+	 align-items: center;
+	 font-size: 38px;
+	 width: 200px;
+	 height: 100px;
+	 position: absolute;
+	 bottom: 450px; 
+	 left: 960px;
+}
+
+.down {
+	padding: 12px 24px; /* First number is top/bottom, second is left/right */
+    font-size: 18px;    /* Makes the text larger */
+    justify-content: center;
+	display:flex;
+	align-items: center;
+	font-size: 38px;
+	width: 200px;
+	height: 100px;
+    position: absolute;
+	bottom: 340px; 
+	left: 960px;
+}
+
+.left {
+	font-size: 38px;
+	width: 200px;
+	bottom: 360px; 
+	left: 740px;
+}
+.right{
+	font-size: 38px;
+	width: 200px;
+	bottom: 360px; 
+	left: 1180px;
+}
+.start {
+	font-size: 68px;
+	bottom: 350px; 
+	left: 260px;
+}
+
+.android17 {
+	object-fit: contain;
+	width: 300px;
+	height: auto;
+	margin: 20px;
+	border: solid 0px  black;
+	box-shadow: 0px 0px 0px 0px green;
+	position: absolute;
+	bottom: -20px; 
+	left: 0px;
+    z-index: 99999;	
+	}
+	
+.roshi {
+	border: solid 0px  black;
+	box-shadow: 0px 0px 0px 0px green;
+	width: 300px;
+	height: auto;
+	position: absolute;
+	bottom: 0px; 
+	left: 360px;
+}	
+	
+	
+	.android17:hover {
+    /* Runs automatically on page load forever */
+  animation: 0; 
+}
