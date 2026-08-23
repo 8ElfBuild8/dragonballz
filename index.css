@@ -138,5 +138,19 @@ button:active {
 	 transform: translateY(4px); 
 }
 
+.desktop {
+	position: absolute;
+	left: 40px;
+	bottom: 700px;
+	font-size: 76px !important;
+	
+}
 
+@media (max-width: 500px){
+	
+.desktop {
+	display: none;
+}
+	
+}
 

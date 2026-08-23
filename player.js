@@ -83,3 +83,4 @@ window.addEventListener('DOMContentLoaded', () => {
         if (event.key === 'ArrowRight') isMovingRight = false;
     });
 });
+

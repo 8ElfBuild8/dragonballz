@@ -85,10 +85,15 @@ box-sizing: border box;
 }
 .start {
 	font-size: 68px;
-	bottom: 350px; 
-	left: 260px;
+	bottom: 362px; 
+	left: 460px;
 }
 
+.home {
+	font-size: 58px;
+	bottom: 372px; 
+	left: 160px;
+}
 .android17 {
 	object-fit: contain;
 	width: 300px;
@@ -110,10 +115,56 @@ box-sizing: border box;
 	position: absolute;
 	bottom: 0px; 
 	left: 360px;
+	image-rendering: pixelated;
 }	
 	
 	
 	.android17:hover {
     /* Runs automatically on page load forever */
   animation: 0; 
+}
+
+.boo2 {
+	width: 380px;
+	height: 400px;
+	position: absolute;
+	left:  1315px;
+	bottom: 175px;
+	overflow: hidden;
+	transition: transform 0.3s ease;
+	image-rendering: pixelated;
+}
+
+.goku {
+	position: absolute;
+	background-color: transparent; /* Tu contenedor mide 300px (1 frame) */
+	width: 300px;
+	height: 300px;
+	left: 0px;
+	bottom: 400px;
+	overflow: hidden;
+	image-rendering: pixelated;
+}
+
+.goku-caminando {
+	display: block;
+	width: 2400px; /* 300px x 8 frames */
+	height: 300px;
+	object-fit: fill;
+	/* La animación se aplica a la imagen interna, no al contenedor */
+	animation: caminar 1s steps(8) infinite; 
+}
+
+@keyframes caminar {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		/* Corregido: Mueve la tira completa hacia la izquierda */
+		transform: translateX(-2400px); 
+	}
+}
+
+.goku.running .goku-caminando-sur {
+    animation: caminar 1s steps(8) infinite;
 }
