@@ -28,7 +28,7 @@ html {
   /* ✨ Animaciones y Transiciones */
   transition: opacity 1s ease; 
   opacity: 0;                  /* Inicia invisible para la animación */
-  animation: aparecerSuave 0.6s ease-out forwards; 
+  animation: aparecerSuave 2.0s ease-out forwards; 
 }
 
 /* 📱 Cambio de imagen para pantallas móviles (Menores a 767px) */
