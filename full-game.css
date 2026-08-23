@@ -1,7 +1,8 @@
 html {
  background-color: yellow;
 box-sizing: border box; 
- zoom: 75%;
+ zoom: 50%;
+ margin: 50px;
 }
 
 .escena {
@@ -93,6 +94,8 @@ box-sizing: border box;
 	font-size: 58px;
 	bottom: 372px; 
 	left: 160px;
+	background-color: orange;
+	color: white;
 }
 .android17 {
 	object-fit: contain;
