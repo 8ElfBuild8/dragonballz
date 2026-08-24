@@ -175,3 +175,14 @@ button:active {
 	font-size: 83px !important;
 	
 }
+
+.seccion4 {
+      display: flex;	
+}
+
+.frieza {
+	   position: absolute;
+	   left: 440px;
+	   bottom: 460px;
+	   
+}
