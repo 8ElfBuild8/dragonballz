@@ -185,7 +185,18 @@ button:active {
 	   position: absolute;
 	   display: block;
 	   left: 0px;
-	   bottom: 500px;
+	   bottom: 800px;
 	   width: 800px;
 	   height: 600px;
+}
+
+.seccion5 {
+    display: flex;
+    gap: 150px; /* This will now work perfectly */
+}
+
+.broly {
+    /* Removed absolute positioning */
+    margin-left: 1000px; /* Use margin instead of left */
+    align-self: flex-end; /* Keeps it at the bottom of the flex container */
 }
