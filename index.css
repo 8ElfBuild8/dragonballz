@@ -178,13 +178,14 @@ button:active {
 
 .seccion4 {
       display: flex;	
+	  gap: 150px;
 }
 
 .frieza {
 	   position: absolute;
 	   display: block;
-	   left: 280px;
-	   bottom: 200px;
-	   width: 1200px;
-	   height: 1000px;
+	   left: 0px;
+	   bottom: 500px;
+	   width: 800px;
+	   height: 600px;
 }
