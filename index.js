@@ -6,7 +6,7 @@ window.addEventListener('load', () => {
   
   // 1. Guardamos el tiempo exacto en que la página terminó de cargar
   const tiempoCarga = performance.now(); 
-  const tiempoMinimo = 2000; // 2000 milisegundos = 2 segundos
+  const tiempoMinimo = 0; // 2000 milisegundos = 2 segundos
 
   // 2. Calculamos cuánto tiempo falta para llegar a los 2 segundos
   const tiempoRestante = Math.max(0, tiempoMinimo - tiempoCarga);
