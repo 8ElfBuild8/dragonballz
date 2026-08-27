@@ -204,6 +204,7 @@ button:active {
 .broly3 {
     	height: 1400px;
 		margin-top: 20px;
+		transform: scaleX(-1);
 }
 
 .broly2 {
@@ -221,9 +222,11 @@ button:active {
 	position: absolute;
 	left: 80px;
 	bottom: 0px;
+	transform: scaleX(-1);
 }
 
 .broly4 {
     	height: 800px;
 		margin-top: 10px;
+		transform: scaleX(-1);
 }
