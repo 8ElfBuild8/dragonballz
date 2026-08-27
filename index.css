@@ -230,3 +230,12 @@ button:active {
 		margin-top: 10px;
 		transform: scaleX(-1);
 }
+
+.explore {
+	    font-size: 76px !important;
+		position: absolute;
+		left: 190px;
+	    bottom: 220px;
+		
+}
+

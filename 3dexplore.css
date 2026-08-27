@@ -1,0 +1,41 @@
+html {
+ background-color: yellow;
+ box-sizing: border box; 
+ zoom: 50%;
+ margin: 50px;
+}
+
+.kame {
+	width: 1000px;
+	height:  1000px;
+	border: solid 3px  black;
+}
+
+.snake {
+	width: 1000px;
+	height:  1000px;
+	border: solid 3px  black;
+}
+
+.kai {
+	width: 1000px;
+	height:  1000px;
+	border: solid 3px  black;
+}
+
+.home {
+	cursor: pointer;
+    background-color: orange;
+	color: white;
+	padding: 24px 48px;
+	font-size: 36px;
+}
+
+
+
+
+
+
+
+
+
