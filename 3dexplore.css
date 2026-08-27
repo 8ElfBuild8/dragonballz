@@ -31,6 +31,13 @@ html {
 	font-size: 36px;
 }
 
+button:active {
+  	transform: translateY(4px); 
+}
+
+button:hover {
+	color: green;
+}
 
 
 
