@@ -188,7 +188,7 @@ button:active {
 	   display: block;
 	   left: 0px;
 	   bottom: 800px;
-	   width: 700px;
+	   width: 650px;
 	   height: 600px;
 }
 
@@ -229,7 +229,7 @@ button:active {
 
 .broly4 {
     	height: 800px;
-		width: 700px;
+		width: 650px;
 		margin-top: 10px;
 		transform: scaleX(-1);
 }
