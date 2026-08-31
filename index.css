@@ -1,6 +1,6 @@
 html {
 	background-color: yellow;
-	zoom: 50 %;
+	zoom: 50%;
 }
 
 body {
@@ -222,6 +222,7 @@ button:active {
 
 .broly4 {
     	height: 800px;
+		width: 750px;
 		margin-top: 10px;
 		transform: scaleX(-1);
 }
