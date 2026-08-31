@@ -93,7 +93,11 @@ button:hover {
 	
 }	
 
-.android17b  .gokub {
+.android17b  {
+	width: 700px;
+}
+
+.gokub {
 	width: 700px;
 }
 
@@ -143,7 +147,7 @@ button:active {
 	position: absolute;
 	left: 40px;
 	bottom: 700px;
-	font-size: 76px !important;
+	font-size: 66px !important;
 	
 }
 
@@ -171,7 +175,7 @@ button:active {
 	position: absolute;
 	left: 40px;
 	bottom: 460px;
-	font-size: 83px !important;
+	font-size: 66px !important;
 }
 
 .seccion4 {
@@ -231,9 +235,9 @@ button:active {
 }
 
 .explore {
-	    font-size: 76px !important;
+	    font-size: 66px !important;
 		position: absolute;
-		left: 190px;
+		left: 150px;
 	    bottom: 220px;
 }
 
