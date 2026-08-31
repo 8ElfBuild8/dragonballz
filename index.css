@@ -90,9 +90,12 @@ button:hover {
 .gif {
 	position: relative;
     display: grid;
+	
 }	
 
-
+.android17b  .gokub {
+	width: 700px;
+}
 
 img {
 	width: 800px;
@@ -181,7 +184,7 @@ button:active {
 	   display: block;
 	   left: 0px;
 	   bottom: 800px;
-	   width: 800px;
+	   width: 700px;
 	   height: 600px;
 }
 
@@ -222,7 +225,7 @@ button:active {
 
 .broly4 {
     	height: 800px;
-		width: 750px;
+		width: 700px;
 		margin-top: 10px;
 		transform: scaleX(-1);
 }
