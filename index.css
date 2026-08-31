@@ -1,12 +1,12 @@
 html {
 	background-color: yellow;
-	margin: 20px;
-	margin-right: 100px;
-	margin-left: 100px;
-	margin-top: 100px;
- 
-	zoom: 50%;
-	
+	zoom: 50 %;
+}
+
+body {
+    margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
 }
 
 #loader {
@@ -60,8 +60,7 @@ button {
 	color: white;
 	padding: 24px 48px;
 	font-size: 36px;
-	
-		}
+}
 
 button:hover {
 	color: green;
@@ -134,8 +133,7 @@ img:hover {
 }
 
 button:active {
-  
-	 transform: translateY(4px); 
+  	 transform: translateY(4px); 
 }
 
 .desktop {
@@ -147,11 +145,9 @@ button:active {
 }
 
 @media (max-width: 500px){
-	
-.desktop {
+	.desktop {
 	display: none;
 }
-	
 }
 
 .boo2 {
@@ -173,7 +169,6 @@ button:active {
 	left: 40px;
 	bottom: 460px;
 	font-size: 83px !important;
-	
 }
 
 .seccion4 {
@@ -236,7 +231,6 @@ button:active {
 		position: absolute;
 		left: 190px;
 	    bottom: 220px;
-		
 }
 
 .vegeta {
@@ -252,5 +246,4 @@ button:active {
 	gap: 0px;
 	image-rendering: pixelated;
 	overflow: hidden;
-	
 }
