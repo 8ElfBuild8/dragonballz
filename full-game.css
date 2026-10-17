@@ -1,6 +1,6 @@
 html {
  background-color: yellow;
-box-sizing: border box; 
+ box-sizing: border box; 
  zoom: 50%;
  margin: 50px;
 }
@@ -186,4 +186,14 @@ box-sizing: border box;
 	image-rendering: pixelated;
 	overflow: hidden;
 	
+}
+
+.idle {
+	position: absolute;
+	left: 1415px;
+	bottom: 35px;
+    border: 0;
+	width: 450px;
+	height: 500px;
+	transform: scaleX(-1);
 }
