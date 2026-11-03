@@ -19,8 +19,8 @@ let posX = 0;
 let posY = 390;
 
 // 3. Scene boundaries
-const MIN_X = -120;
-const MIN_Y = 0;
+const MIN_X = -95;
+const MIN_Y = 10;
 const MAX_X = 1775;
 const MAX_Y = 390;
 
