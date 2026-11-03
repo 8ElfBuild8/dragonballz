@@ -11,15 +11,18 @@ const buttons = {
     right: document.getElementById('right')
 };
 
+player.style.width = "400px";
+player.style.height = "400px";
+
 // 2. Exact starting positions
 let posX = 0;
-let posY = 380;
+let posY = 390;
 
 // 3. Scene boundaries
-const MIN_X = 0;
+const MIN_X = -120;
 const MIN_Y = 0;
-const MAX_X = 1960;
-const MAX_Y = 380;
+const MAX_X = 1775;
+const MAX_Y = 390;
 
 // 4. Movement configuration
 const speed = 8;
