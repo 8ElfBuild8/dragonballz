@@ -110,90 +110,60 @@ html {
     z-index: 99999;	
 	}
 	
-.roshi {
+.ball {
 	border: solid 0px  black;
 	box-shadow: 0px 0px 0px 0px green;
-	width: 300px;
+	width: 150px;
 	height: auto;
 	position: absolute;
-	bottom: 0px; 
-	left: 360px;
+	bottom: 60px; 
+	left: 520px;
 	image-rendering: pixelated;
 }	
 	
 	
-	.android17:hover {
-    /* Runs automatically on page load forever */
-  animation: 0; 
-}
+	
 
 .boo2 {
 	width: 380px;
 	height: 400px;
 	position: absolute;
-	left:  1315px;
-	bottom: 175px;
+	left:  1305px;
+	bottom: 235px;
 	overflow: hidden;
 	transition: transform 0.3s ease;
-	image-rendering: pixelated;
-}
-
-.goku {
-	position: absolute;
-	background-color: transparent; /* Tu contenedor mide 300px (1 frame) */
-	width: 300px;
-	height: 300px;
-	left: 0px;
-	bottom: 400px;
-	overflow: hidden;
-	image-rendering: pixelated;
-}
-
-.goku-caminando {
-	display: block;
-	width: 2400px; /* 300px x 8 frames */
-	height: 300px;
-	object-fit: fill;
-	/* La animación se aplica a la imagen interna, no al contenedor */
-	animation: caminar 1s steps(8) infinite; 
-}
-
-@keyframes caminar {
-	from {
-		transform: translateX(0);
-	}
-	to {
-		/* Corregido: Mueve la tira completa hacia la izquierda */
-		transform: translateX(-2400px); 
-	}
-}
-
-.goku.running .goku-caminando-sur {
-    animation: caminar 1s steps(8) infinite;
-}
-
-.vegeta {
-	position: absolute;
-	left: 1715px;
-	bottom: 5px;
-    border: 0;
-	width: 350px;
-	height: 400px;
-	margin: 0px;
-	border: solid 0px  black;
-	box-shadow: 0px 0px 0px 0px green;
-	gap: 0px;
-	image-rendering: pixelated;
-	overflow: hidden;
 	
 }
 
-.idle {
+
+.goku {
 	position: absolute;
 	left: 1415px;
 	bottom: 35px;
     border: 0;
 	width: 450px;
 	height: 500px;
+	transform: scaleX(-1);
+	image-rendering: pixelated;
+}
+
+.bat {
+	width: 350px;
+	height: auto;
+}
+
+.bat2 {
+	position: absolute;
+	left: 1715px;
+	bottom: 0px;
+    border: 0;
+	width: 250px;
+	height: auto;
+	margin: 0px;
+	border: solid 0px  black;
+	box-shadow: 0px 0px 0px 0px green;
+	gap: 0px;
+	
+	overflow: hidden;
 	transform: scaleX(-1);
 }
