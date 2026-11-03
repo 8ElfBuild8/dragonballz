@@ -13,13 +13,13 @@ const buttons = {
 
 // 2. Exact starting positions
 let posX = 0;
-let posY = 480;
+let posY = 380;
 
 // 3. Scene boundaries
 const MIN_X = 0;
 const MIN_Y = 0;
-const MAX_X = 1780;
-const MAX_Y = 480;
+const MAX_X = 1960;
+const MAX_Y = 380;
 
 // 4. Movement configuration
 const speed = 8;
