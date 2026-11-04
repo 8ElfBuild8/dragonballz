@@ -220,6 +220,8 @@ button:active {
 	bottom: 10px;
 	transform: scaleX(-1);
 	transform-origin: left; 
+	
+	object-fit: contain;
 }
 
 .broly4 {
