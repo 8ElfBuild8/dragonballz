@@ -4,7 +4,76 @@
 
 <link rel="icon" type="image/png" href="./logo192.png">
 
+
+<style>
+#loadingScreen {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    border: 0;
+    z-index: 2147483647;
+    background: #000;
+}
+
+html {
+    background: #000;
+}
+</style>
+
+<script>
+document.write(
+    '<iframe id="loadingScreen" src="./loading.html"></iframe>'
+);
+</script>
+
+
+<script>
+window.addEventListener("load", () => {
+    const loading = document.getElementById("loadingScreen");
+
+    setTimeout(() => {
+        if (loading) loading.remove();
+    }, 3000);
+});
+</script>
+
+
+<style>
+#loadingScreen {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    z-index: 99999;
+    background: black;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const loading = document.createElement("iframe");
+
+    loading.id = "loadingScreen";
+    loading.src = "./loading.html";
+
+    document.documentElement.appendChild(loading);
+
+    loading.addEventListener("load", () => {
+        setTimeout(() => {
+            loading.remove();
+        }, 3000);
+    });
+});
+</script>
+
+
+
 </head>
+
+
+
 
 
  <div class="control">
